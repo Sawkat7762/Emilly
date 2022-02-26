@@ -1,2 +1,29 @@
 @import url(all.min.css);
 @import url(bootstrap.min.css);
+/* Default  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --brand-color: #f74c70;
+    --shadow-font: 'Shadows Into Light', cursive;
+    --background: #E8E7E4;
+}
+/* Top nav */
+.navbar#topnav{
+    padding-top: 2px !important;
+    padding-bottom: 0 !important;
+}
+#topnav .navbar-brand{
+    font-size: 13px;
+
+}
