@@ -1,5 +1,6 @@
 @import url(all.min.css);
 @import url(bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 /* Default  */
 * {
     margin: 0;
@@ -75,4 +76,61 @@ body{
 
 .rounded-pill {
     background-color: var(--brand-color);
+}
+/* Banner Section */
+#banner .carousel-item{
+    position: relative;
+}
+#banner .bannerabs{
+    position: absolute;
+    right: 337px;
+    top: 170px;
+    color: wheat;
+}
+#banner .bannerabs p:first-child{
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 60px;
+    color: red;
+    margin-bottom: 0;
+}
+#banner .bannerabs h4{
+    margin-bottom: 0;
+    font-size:50px !important;
+    
+    
+}
+#banner .bannerabs a button{
+    background-color: #50a7ff;
+ 
+    height: 38px;
+    width: 105px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #50a7ff;
+    
+}
+#banner .bannerabs a button:hover{
+    background: #FAA7FF;
+    color: black;
+    border-color: #FAA7FF;
+    box-shadow: 0 0 25px #FAA7FF !important;
+
+}
+#banner .row{
+    flex-wrap: nowrap !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+#banner span {
+    color: red;
+    border: 1px solid #E8E7E4;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+   
+  
 }
