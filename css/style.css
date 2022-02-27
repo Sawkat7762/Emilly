@@ -19,11 +19,60 @@ body{
     --background: #E8E7E4;
 }
 /* Top nav */
-.navbar#topnav{
+#top-nav {
+    background-color: black;
+    z-index: 1;
+}
+.navbar#top-nav{
     padding-top: 2px !important;
     padding-bottom: 0 !important;
 }
-#topnav .navbar-brand{
+#top-nav .navbar-brand{
     font-size: 13px;
 
+}
+#top-nav .btn{
+    color: aliceblue;
+}
+.btn:focus {
+   
+    box-shadow: none !important;
+}
+/* Main Navbar */
+.navigation {
+    background-color: white;
+}
+
+.navigation.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.navigation.navbar {
+    padding: 0;
+}
+
+.navigation {
+    position: sticky;
+    top: 0;
+}
+
+.navigation.navbar-light .navbar-nav .nav-item.active .nav-link,
+.navigation.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: var(--brand-color);
+    transition: all .3s;
+}
+
+.navigation .nav-item .btn {
+    padding: 0;
+    line-height: 1rem;
+}
+
+
+.btn .badge {
+    top: -10px;
+}
+
+.rounded-pill {
+    background-color: var(--brand-color);
 }

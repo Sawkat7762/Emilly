@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="css/style.css" class="css">
 </head>
 <body>
-    <header>
+    <header class=" sticky-top">
         <!-- Top Nav -->
-        <nav class="navbar navbar-dark bg-dark" id="topnav">
+        <nav class="navbar navbar-dark bg-dark " id="top-nav">
             <div class="container-fluid">
               <a class="navbar-brand ps-5">Hi! User! How are you?</a>
               <div class="d-flex">
                 <div class="btn-group">
-                    <button class="btn btn-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn  btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         My Account
                     </button>
                     <ul class="dropdown-menu">
@@ -49,7 +49,7 @@
                     </ul>
                   </div>
                   <div class="btn-group me-5">
-                    <button class="btn btn-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="img/flag.jpg" width="25"
                         height="20" class="me-1" alt="">
                         French
@@ -71,6 +71,61 @@
               </div>
             </div>
           </nav>
+     <!-- Main Navbar  -->
+     <div >
+        <nav class="navigation navbar navbar-expand-lg navbar-light shadow py-lg-0 py-md-2 py-xm-3">
+            <div class=" container container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/emily-logo-png.png" alt="" width="" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item me-lg-3 py-lg-3 active">
+                            <a class="nav-link active" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item me-lg-3 py-lg-3">
+                            <a class="nav-link" href="#">MEN</a>
+                        </li>
+
+                        <li class="nav-item me-lg-3 py-lg-3 ">
+                            <a class="nav-link" href="#">WOMEN</a>
+                        </li>
+
+                       
+                        <li class="nav-item me-lg-3 py-lg-3">
+                            <a class="nav-link" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item me-lg-3 py-lg-3">
+                            <a class="nav-link" href="productdetails.html">Product Details</a>
+                        </li>
+                        <li class="nav-item me-lg-3 py-lg-3">
+                            <a class="nav-link" href="Contact1.html">CONTACT US</a>
+                        </li>
+                        <li class="nav-item me-lg-3 py-lg-3">
+                            <a class="nav-link" href="reg.html">Registration</a>
+                        </li>
+                        <li class="nav-item py-4 px-lg-3 border-start  border-4 border-md">
+                            <i class="fas fa-search"></i>
+                        </li>
+                        <li class="nav-item py-4 px-lg-3 border-start border-end  border-4">
+                            <button type="button" class="btn  position-relative">
+                                <i class="fab fa-opencart"></i>
+                                <span class="position-absolute  rounded-pill translate-middle badge ">
+                                    0
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    </header>
 
 
 
