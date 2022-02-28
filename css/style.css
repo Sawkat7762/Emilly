@@ -249,6 +249,7 @@ body{
 .swiper-slide {
   text-align: center;
   font-size: 18px;
+  background-color: white;
  
 
   /* Center slide text vertically */
@@ -298,7 +299,7 @@ body{
   0 10px 10px rgba(0,0,0,0.22);
   padding-top: 10px;
   transition: .4s;
-  background: #f2f2f2;
+  background: white;
   padding: 5px;
   flex-wrap: wrap;
   flex-grow: 1;
@@ -353,4 +354,61 @@ body{
 }
 .cardone .fa-star:hover, .cardone .checked{
   color: orange;
+}
+/* Arival second part */
+.blank{
+  width: 200%;
+}
+.blankroot{
+  background-color: var(--background);
+  margin-top: 75px;
+  padding: 40px 56px;
+  height: 330px;
+}
+.blankroot button{
+  background-color: var(--background);
+  border: 2px solid black;
+}
+.absolutepic1{
+  position: relative;
+}
+.absolutepic2 img{
+  height: 500px;
+ 
+}
+@keyframes girlpic {
+  0%   { left:-50px; top:480px;}
+  25%   {left:60px; top:480px;}
+  50%  { left:60px; top:480px;}
+  75%  { left:60px; top:480px;}
+  100%   { left:-50px; top:480px;}
+
+  
+}
+.absolutepic2{
+  top: 480px;
+  left: 60px;
+  z-index: 1;
+  position: absolute;
+  animation-name: girlpic;
+  animation-duration: 5s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+}
+.absoltepic3{
+  position: absolute;
+  top: 580px;
+  left: 90px;
+  z-index: 2;
+}
+.absoltepic3 p{
+  font-size: 10rem;
+  color: white;
+}
+.weekand a button:hover{
+  background-color: white;
+  box-shadow: 0 0 25px #7a777a,
+                0 0 50px #7a777a !important;
+  color: #E1306C;
+
 }
