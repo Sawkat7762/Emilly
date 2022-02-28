@@ -351,3 +351,6 @@ body{
 .card-body, .specialbody{
   background: #FCF8FF;
 }
+.cardone .fa-star:hover, .cardone .checked{
+  color: orange;
+}
