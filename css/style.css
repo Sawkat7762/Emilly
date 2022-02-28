@@ -400,7 +400,59 @@ body{
   top: 580px;
   left: 90px;
   z-index: 2;
+  overflow: hidden;
+  filter: contrast(150%) brightness(1000%);
 }
+.absoltepic3 .text{
+  color: #fff;
+  letter-spacing: 5px;
+  position: relative;
+}
+.text::after,
+.text::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  color: hsla(148, 75%, 54%, 0.356);
+  filter: blur(0.04em);
+
+ 
+}
+.text::after{
+  mix-blend-mode: difference;
+}
+/* .gradiant,
+ .spotlight{
+   position: absolute;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 10;
+
+}
+.gradiant{
+  color: linear-gradient(45deg, red,yellow);
+  mix-blend-mode: multiply;
+}
+.spotlight{
+  top: -100%;
+  left: -100%;
+  color: radial-gradient(circle, blue,transparent 25%) 0 0 / 25% 25%,
+  radial-gradient(circle, blue, white 25%) 50% 50% / 12.5% 12.5%;
+  mix-blend-mode: color-dodge;
+  animation: animate 5s linear infinite;
+
+}
+@keyframes animate {
+  100%{
+    transform: translate(50%, 50%);
+  }
+  
+} */
+
 .absoltepic3 p{
   font-size: 10rem;
   color: white;
