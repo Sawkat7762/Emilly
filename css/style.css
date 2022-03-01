@@ -464,3 +464,152 @@ body{
   color: #E1306C;
 
 }
+.boxitem{
+  width:100% ;
+  height: 700px;
+}
+.box{
+  position: relative;
+  width: 330px;
+  height: 340px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.box .imgbox{
+  position: relative;
+  overflow: hidden;
+}
+.box .imgbox img{
+  width: 330px;
+  height: 340px;
+  transition: transform 2s;
+}
+.box .imgbox:hover img{
+  transform: scale(1.2);
+}
+.box .details{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, .8);
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.box:hover .details{
+  transform: scaleY(1);
+}
+.box .details .contain{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 39px;
+  color: #fff;
+}
+.box1{
+  position: relative;
+}
+.box1 img{
+  height: 684px !important;
+  width: 90% !important;
+  
+}
+.box1 .write1{
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  top:0%;
+  left:0px;
+  display: none;
+  height: 100%;
+  width: 327px;
+}
+.box1:hover .write1{
+  display: block;
+}
+.box1 .write1 .text-center{
+  padding-top: 285px;
+  color: white;
+}
+.lobe{
+  font-family: lobster;
+}
+.robo{
+  font-family: Roboto;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.rale{
+  font-family: Raleway;
+}
+
+.upto{
+  height: 340px !important;
+
+  width: 90% !important;
+  position: relative;
+}
+.upto span{
+font-size: 100px;
+font-family: Anton;
+font-weight: bold;
+}
+.upto p{
+padding-top: 50px;
+}
+
+/* BOX ROTATE */
+/* .box-area{
+  width: 80%;
+  height: 200px;
+  background: greenyellow;
+  /* transform: rotate(180deg);
+  transition: all 1s linear; */
+  /* top: 55px;
+  left: 36px;
+  position: absolute;
+
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+  
+  @keyframes spin { 
+      from { 
+          transform: rotate(0deg); 
+      } to { 
+          transform: rotate(360deg); 
+      }
+  }
+.box-area1{
+  width: 80%;
+  height: 200px;
+  background: rgba(34, 193, 195, 80);
+  top: 55px;
+  left: 36px;
+  position: absolute;
+  animation-name: mymove;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+  @keyframes mymove { 
+      from { 
+          transform: rotate(360deg); 
+      } to { 
+          transform: rotate(0deg); 
+      }
+  }
+  .box-area2{
+      position: absolute;
+      top: 115px;
+      left: 115px;
+      color: white;
+  }
+.box-area1:hover{
+  animation: none;
+}  */
