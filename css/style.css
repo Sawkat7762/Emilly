@@ -800,3 +800,104 @@ input#rate-5:checked ~ label{
 #theblog .card{
   width: 100%;
 }
+
+/* Footer */
+#footer{
+  background-color: black;
+}
+#footer .item{
+  font-size: 20px;
+  color: white;
+}
+#footer span{
+  color: red;
+}
+#footer .bd{
+  border: 2px solid whitesmoke !important;
+  border-radius: 0;
+  color: white;
+  width: 170px;
+}
+#footer .bd a{
+  text-decoration: none;
+  color: white;
+}
+#footer .bd:hover{
+  background: #A8EB12;
+}
+#footer p{
+  color: rgb(85, 84, 84);
+}
+/* logo section */
+#logo img{
+  height: 80px;
+  width: 80px;
+}
+p{
+  margin-top: 0;
+  font-weight: bold;
+  color: gray
+}
+/* card section */
+#card img{
+  height: 80px;
+  width: 80px;
+}
+p{
+  font-size: small;
+}
+h5{
+  font-weight: bold;
+}
+#card a{
+  color: black;
+  opacity: .7;
+}
+/* main footer */
+#main-footer .imgsize{
+  height: 30px;
+  width: 44px;
+  margin-right: 20px;
+}
+#main-footer .form{
+  position: relative;
+}
+#main-footer .form .form-fa i{
+  position: absolute;
+  color: red;
+  top: 35px;
+  left: 320px;
+  font-size: 20px;
+}
+#main-footer .form .form-control{
+  width: 350px;
+  border-radius: 0;
+}
+.bacgmap{
+  background-image: url("../img/world_map_PNG27.png");
+  background-repeat: no-repeat;
+}
+
+
+/* scrollToTop */
+html{
+  scroll-behavior:smooth;
+}
+.gotobtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #C0C0C0;
+  bottom: 35px;
+  right: 50px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  border-radius: 50px;
+  z-index: 2;
+  animation: blink 1.2s ease-in-out infinite .3s;
+  box-shadow: 0.5rem 0.5rem 1rem rgb(0 0 0 / 20%);
+  cursor: pointer;
+}
