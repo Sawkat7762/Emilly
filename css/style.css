@@ -1,5 +1,5 @@
-@import url(all.min.css);
 @import url(bootstrap.min.css);
+@import url(all.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 /* Default  */
 * {
@@ -352,9 +352,10 @@ body{
 .card-body, .specialbody{
   background: #FCF8FF;
 }
-.cardone .fa-star:hover, .cardone .checked{
+.cardone .fa-star:hover, .cardone .checked {
   color: orange;
 }
+
 /* Arival second part */
 .blank{
   width: 200%;
@@ -704,4 +705,70 @@ padding-top: 50px;
 } 
 .upto{
   animation: none;
+}
+/* Special Offer */
+#special img{
+  width: 200px;
+  height: 226px;
+  background-color: #C0C0C0;
+}
+#special .row{
+  flex-wrap: nowrap !important;
+}
+#special .icon1 span{
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+
+}
+#special .icon1 span:hover{
+  background: #2183a2;
+  color: #ff9f43;
+}
+#introduce {
+  background-color: black;
+  color: white;
+}
+#special .card-body {
+  background: #f5f1d5;
+}
+.specialbutton{
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  width: 85%;
+  border: 0;
+  outline: none;
+  display: inline;
+  cursor: pointer;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.star-widget{
+  width: 80%;
+}
+.star-widget input{
+  display: none;
+
+}
+.star-widget label{
+  font-size: 17px;
+  color: #444;
+  transition: all 0.2s ease-in;
+  float: right;
+  padding: 3px;
+}
+.firststar label{
+  padding: 5px !important;
+}
+ input:not(:checked) ~ label:hover,
+ input:not(:checked) ~ label:hover label{
+  color: #fd4;
+}
+input:checked ~ label{
+  color: #fd4;
+}
+input#rate-5:checked ~ label{
+  color: #fd7;
+  text-shadow: 0 0 20px #952;
 }
