@@ -192,7 +192,7 @@ body{
 #socialnav nav li a i{
   position:absolute;
   top: 17px;
-  left: 5px;
+  left: 10px;
   font-size: 22px;
 }
  #socialnav ul li a span{
@@ -539,14 +539,17 @@ body{
 }
 .lobe{
   font-family: lobster;
+  color: #E8E7E4;
 }
 .robo{
   font-family: Roboto;
   font-weight: bolder;
   font-size: 30px;
+  color: #E8E7E4;
 }
 .rale{
   font-family: Raleway;
+  color: #E8E7E4;
 }
 
 .upto{
@@ -833,7 +836,7 @@ input#rate-5:checked ~ label{
   height: 80px;
   width: 80px;
 }
-p{
+#logo p{
   margin-top: 0;
   font-weight: bold;
   color: gray
@@ -843,10 +846,10 @@ p{
   height: 80px;
   width: 80px;
 }
-p{
+#card p{
   font-size: small;
 }
-h5{
+#card h5{
   font-weight: bold;
 }
 #card a{
@@ -873,11 +876,6 @@ h5{
   width: 350px;
   border-radius: 0;
 }
-.bacgmap{
-  background-image: url("../img/world_map_PNG27.png");
-  background-repeat: no-repeat;
-}
-
 
 /* scrollToTop */
 html{
@@ -900,4 +898,60 @@ html{
   animation: blink 1.2s ease-in-out infinite .3s;
   box-shadow: 0.5rem 0.5rem 1rem rgb(0 0 0 / 20%);
   cursor: pointer;
+}
+@media screen  and (max-width:1200px) {
+  .container{
+     width: 960px;
+  }
+  .navigation.navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+  #banner .bannerabs{
+    right: 170px;
+  }
+  .bannerbottom{
+    margin-left: 0 !important;
+  }
+  .bannerbottom h4 {
+    font-size: calc(1rem + .3vw);
+}
+.box {
+  width: 295px;
+}
+.box .imgbox img{
+  width: 295px;
+}
+.box1 .write1{
+  width: 280px;
+}
+#special img{
+  width: 140px;
+}
+.star-widget label{
+  font-size: 13px;
+}
+.firststar label{
+  padding: 3px !important;
+}
+#special .icon1 span {
+  margin: 4px;
+}
+.specialbutton{
+  font-size: 16px;
+}
+#card h5{
+  font-size: 16px;
+}
+.gotobtn{
+  right: 80px;
+}
+
+}
+
+@media screen and (max-width:991px){
+  .container{
+     width: 720px;
+  }
+
+  
 }
