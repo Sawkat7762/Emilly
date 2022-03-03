@@ -19,6 +19,9 @@ body{
     --shadow-font: 'Shadows Into Light', cursive;
     --background: #E8E7E4;
 }
+ul{
+  margin-bottom: 0px !important;
+}
 /* Top nav */
 #top-nav {
     background-color: black;
@@ -76,6 +79,9 @@ body{
 
 .rounded-pill {
     background-color: var(--brand-color);
+}
+.navicon1{
+  padding-left: 0 !important;
 }
 /* Banner Section */
 #banner .carousel-item{
@@ -953,5 +959,5 @@ html{
      width: 720px;
   }
 
-  
+
 }
