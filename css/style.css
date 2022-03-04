@@ -958,6 +958,104 @@ html{
   .container{
      width: 720px;
   }
-
-
+  .navicon1 li i{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .translate-middle {
+    transform: translate(-106%,-39%)!important;
+}
+.navbar-toggler {
+  margin-left: 380px !important;
+}
+#banner .bannerabs{
+  right: 87px;
+  top: 15px;
+}
+.bannerbottom .lastone{
+  margin-left: 0 !important;
+}
+.bannerbottom h4 {
+  font-size: calc(13px + .3vw);
+}
+.bannerbottom p{
+  font-size: 12px;
+}
+#banner span {
+  height: 40px;
+  width: 40px;
+  padding: 6px;
+}
+#banner span .fa-2x{
+  font-size: 20px !important;
+}
+.swiper-slide{
+  margin-right: 13px !important;
+  width: 230px !important;
+}
+.navigation.navbar {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.cardone h5{
+  font-size: 24px;
+}
+.cardone .fa-star{
+  font-size: 20px;
+}
+.blankwrite{
+  font-size: 12px;
+}
+.blankroot{
+  padding-right: 0 !important;
+}
+.absoltepic3 p {
+  font-size: 8rem;
+}
+.absoltepic3{
+  top: 640px;
+  left: 75px;
+}
+.growbasis{
+  flex: 0 1 100px !important;
+  flex-wrap: wrap !important;
+}
+.growbasis .cardone{
+  flex-basis: auto !important;
+}
+.cardone img {
+  border-radius: 29px;
+  padding: 21px;
+}
+.boxitem {
+  width: 33.33%;
+}
+.box {
+  width: 220px;
+  height: 272px;
+}
+.box .imgbox img {
+  width: 295px;
+  height: 275px;
+}
+.box1 img {
+  height: 558px !important;
+  width: 219px !important;
+}
+.box1 .write1 .text-center {
+  padding-top: 170px;
+}
+.box1 .write1 {
+  width: 219px;
+}
+.upto{
+  height: 283px !important;
+}
+.box-area2 {
+  left: 63px;
+  top: 34px;
+}
+.upto span{
+  font-size: 54px;
+}
 }
