@@ -1285,7 +1285,7 @@ box1 img{
   height: 33px;
 }
 .swiper-slide{
-  width: 317px !important;
+  width: 100% !important;
 }
 .absolutepic2 img {
   height: 332px;
