@@ -283,8 +283,8 @@ ul{
   height: 220px !important;
   border-radius: 5px;
 }
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
-  left: 0px !important;
+.swiper-button-prev, .swiper-rtl, .swiper-button-next {
+  color: #C0C0C0 !important;
   
 }
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
@@ -1057,5 +1057,50 @@ html{
 }
 .upto span{
   font-size: 54px;
+}
+#special img {
+  width: 216px;
+}
+#special .d-flex{
+  display: block !important;
+}
+#special .card-title {
+  font-size: 19px;
+  text-align: center !important;
+}
+#special .offer{
+  padding-left: 64px;
+  font-size: 20px;
+}
+.star-widget label {
+  font-size: 20px;
+}
+#special .icon1 span {
+  padding: 9px;
+  margin: 9px;
+}
+.specialbutton {
+  font-size: 25px;
+}
+#card h5 {
+  font-size: 11px;
+}
+#card p {
+  font-size: 12px;
+}
+#main-footer .form .form-control {
+  width: 239px;
+}
+#main-footer .form .form-fa i {
+  top: 31px;
+  left: 243px;
+  font-size: 27px;
+}
+.gotobtn {
+  right: 10px;
+}
+#logo .footerlogo{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 }
