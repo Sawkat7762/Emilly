@@ -83,6 +83,10 @@ ul{
 .navicon1{
   padding-left: 0 !important;
 }
+.navbar-toggler:focus {
+  
+  box-shadow:none;
+}
 /* Banner Section */
 #banner .carousel-item{
     position: relative;
@@ -1029,6 +1033,7 @@ html{
 }
 .boxitem {
   width: 33.33%;
+  height: 550px;
 }
 .box {
   width: 220px;
@@ -1103,4 +1108,286 @@ html{
   margin-left: 0 !important;
   margin-right: 0 !important;
 }
+}
+@media screen and (max-width:767px){
+  .container{
+    width: 540px;
+ }
+ #banner .bannerabs {
+  right: 55px;
+ }
+ .navbar-toggler {
+  margin-left: 235px !important;
+  margin-right: 5px !important;
+}
+.swiper-slide {
+  /* margin-right: 13px !important; */
+  width: 261px !important;
+}
+.bannerbottom .secondone{
+  margin-left: 8px !important;
+}
+@keyframes girlpic {
+  0%   { left:-110px; top:461px;}
+  25%   {left:-54px; top:461px;}
+  50%  { left:-110px; top:461px;}
+  75%  { left:-54px; top:461px;}
+  100%   { left:-110px; top:461px;}
+
+  
+}
+.absolutepic2{
+  top: 461px;
+  left: -54px;
+}
+.absoltepic3 p {
+  font-size: 6rem;
+}
+.absoltepic3 {
+  top: 640px;
+  left: 16px;
+}
+.wavy span{
+  font-size: 35px !important;
+}
+.growbasis .cardone h5 {
+  font-size: 19px;
+}
+.growbasis .cardone{
+  width: 200px;
+}
+.box {
+  width: 165px;
+}
+box1 img{
+  width: 164px;
+}
+.box1 .write1 {
+  width: 164px;
+}
+.box1 img {
+  width: 164px !important;
+}
+.box .details .contain{
+  padding: 11px;
+}
+.upto span {
+  font-size: 33px;
+}
+.box-area2 {
+  left: 45px;
+  top: 24px;
+}
+.box-area1 {
+  width: 90%;
+  height: 175px;
+}
+.box-area6 {
+  width: 90%;
+  height: 175px;
+}
+.box-area5 {
+  width: 90%;
+  height: 175px;
+}
+.box-area4 {
+  width: 90%;
+  height: 175px;
+}
+.box-area3 {
+  width: 90%;
+  height: 175px;
+}
+.box-area {
+  width: 90%;
+  height: 175px;
+}
+#special .offer {
+  padding-left: 40px;
+  font-size: 17px;
+}
+.star-widget label {
+  font-size: 15px;
+}
+#special .icon1 span {
+  padding: 5px;
+  margin: 5px;
+}
+#special .card-title {
+  font-size: 13px;
+}
+.specialbutton {
+  font-size: 16px;
+}
+#main-footer .form .form-control {
+  width: 141px;
+}
+#main-footer .form .form-fa i{
+  left: 148px;
+}
+#main-footer .imgsize {
+  width: 36px;
+  margin-right: 8px;
+}
+
+}
+@media screen and (max-width:575px){
+  .container{
+     width: 100%;
+  }
+  .navbar-toggler {
+    margin-left: 25px !important;
+  }
+  #top-nav .navbar-brand {
+    font-size: 8px;
+    padding-left: 0px !important;
+}
+#top-nav{
+  flex-wrap: nowrap;
+}
+.bannerbottom{
+  display: block;
+}
+.bannerbottom h4 {
+  font-size: calc(27px + .3vw);
+}
+#banner span {
+  height: 75px;
+  width: 80px;
+  padding: 13px;
+}
+#banner span .fa-2x {
+  font-size: 45px !important;
+}
+.bannerbottom .firstone {
+  margin-left: 8px !important;
+}
+.wavy span {
+  font-size: 21px !important;
+}
+#banner .bannerabs {
+  right: 15px;
+  top: -5px;
+}
+#banner .bannerabs p:first-child {
+  font-size: 32px;
+}
+#banner .bannerabs h4{
+  font-size: 35px !important;
+}
+#banner .bannerabs h2{
+  font-size: calc(10px + .9vw) !important;
+}
+#banner .bannerabs p{
+  font-size: 12px;
+}
+#banner .bannerabs a button{
+  height: 33px;
+}
+.swiper-slide{
+  width: 317px !important;
+}
+.absolutepic2 img {
+  height: 332px;
+}
+.blankwrite h5{
+  font-size: 16px;
+}
+.blankwrite h3{
+  font-size: calc(15px + .6vw);
+}
+.blankwrite p{
+  font-size: 12px;
+}
+.blankroot {
+  height: 380px;
+}
+.blankroot a .px-4{
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+@keyframes girlpic {
+  0%   { left:-110px; top:550px;}
+  25%   {left:-54px; top:550px;}
+  50%  { left:-110px; top:550px;}
+  75%  { left:-54px; top:550px;}
+  100%   { left:-110px; top:550px;}
+
+  
+}
+.absolutepic2{
+  top: 550px;
+  left: -54px;
+}
+.boxroot{
+  display: block !important;
+}
+.boxitem {
+  width: 100%;
+}
+.box {
+  width: 100%;
+}
+.box1{
+  margin-top: 20px;
+  width: 100%;
+}
+.box1 img {
+  width: 100% !important;
+}
+.box1 .write1 {
+  width: 100%;
+}
+.box-area2 {
+  left: 84px;
+  top: 40px;
+}
+.upto span {
+  font-size: 45px;
+}
+.box .imgbox img{
+  width: 100%;
+}
+#special .col-4{
+  width: 100%;
+}
+#special .d-flex{
+  display: flex !important;
+}
+#special .row{
+  flex-wrap: wrap !important;
+}
+#special img {
+  width: 147px;
+}
+#footer .bd{
+  width: 129px;
+}
+#card .container .d-flex{
+ display: block !important;
+}
+#card h5 {
+  font-size: 35px;
+}
+#card p {
+  font-size: 23px;
+}
+#main-footer .d-flex{
+  display: block !important;
+}
+#main-footer .imgsize{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.newsletter h5{
+  font-size: 40px;
+}
+#main-footer .form .form-control {
+  width: 220px;
+}
+#main-footer .form .form-fa i {
+  left: 230px;
+}
+
 }
