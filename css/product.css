@@ -1,0 +1,152 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root {
+    --brand-color: #f74c70;
+    --shadow-font: 'Shadows Into Light', cursive;
+    --background: #E8E7E4;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin-bottom: 0px !important;
+  }
+  /* Top nav */
+#top-nav {
+    background-color: black;
+    z-index: 1;
+}
+.navbar#top-nav{
+    padding-top: 2px !important;
+    padding-bottom: 0 !important;
+}
+#top-nav .navbar-brand{
+    font-size: 13px;
+
+}
+#top-nav .btn{
+    color: aliceblue;
+}
+.btn:focus {
+   
+    box-shadow: none !important;
+}
+/* Main Navbar */
+.navigation {
+    background-color: white;
+}
+
+.navigation.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.navigation.navbar {
+    padding: 0;
+}
+
+.navigation {
+    position: sticky;
+    top: 0;
+}
+
+.navigation.navbar-light .navbar-nav .nav-item.active .nav-link,
+.navigation.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: var(--brand-color);
+    transition: all .3s;
+}
+
+.navigation .nav-item .btn {
+    padding: 0;
+    line-height: 1rem;
+}
+
+
+.btn .badge {
+    top: -10px;
+}
+
+.rounded-pill {
+    background-color: var(--brand-color);
+}
+.navicon1{
+  padding-left: 0 !important;
+}
+.navbar-toggler:focus {
+  
+  box-shadow:none;
+}
+
+
+
+
+
+
+
+@media screen  and (max-width:1200px) {
+    .container{
+       width: 960px;
+    }
+    .navigation.navbar-light .navbar-nav .nav-link {
+      font-size: 12px;
+    }
+}
+
+
+
+
+@media screen and (max-width:991px){
+    .container{
+       width: 720px;
+    }
+    .navicon1 li i{
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    .translate-middle {
+      transform: translate(-106%,-39%)!important;
+  }
+  .navbar-toggler {
+    margin-left: 380px !important;
+  }
+}
+
+
+
+@media screen and (max-width:767px){
+    .container{
+      width: 540px;
+   }
+   .navbar-toggler {
+    margin-left: 235px !important;
+    margin-right: 5px !important;
+  }
+}
+
+
+
+@media screen and (max-width:575px){
+    .container{
+       width: 100%;
+    }
+    .navbar-toggler {
+      margin-left: 25px !important;
+    }
+    #top-nav .navbar-brand {
+      font-size: 8px;
+      padding-left: 0px !important;
+  }
+  #top-nav{
+    flex-wrap: nowrap;
+  }
+}
